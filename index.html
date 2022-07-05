@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gohel Soham">
+    <meta name="Purpose" content="Task of Thapa Technical Codefest">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./asset/skills.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Multi Skill </title>
+</head>
+<body>
+    <section class="main">
+        <!------------------------------------------------- 
+                        header section 
+        -------------------------------------------------->
+        <section class="header">
+            <div class="navabar display-flex">
+                <div class="logo">
+                    <a href="#"><h1>Multi <img src="./asset/skills.png" alt="" srcset=""> Skill</h1></a>
+                </div>
+                <ul class="menu display-flex">
+                    <li><a href="#">Home</a></li>
+                        <li><a href="#Courses">Courses</a></li>
+                        <li><a href="#plan">Plan</a></li>
+                        <li><a href="#program">Program</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                </ul>
+                <ul class="button menu display-flex">
+                    <li><a href="">Log in </a></li>
+                    <li><a href="">sign in</a></li>
+                </ul>
+                <div class="side-menu display-flex">
+                    <i class="fas fa-bars fa-2x" onclick="openNav()" id="side-menu"></i>
+                    <div id="sidebar" class="sidebar">
+                        <i class="fa-solid fa-xmark" onclick="closeNav()" ></i>
+                        <div class="option">
+                            <ul class="menus ">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#Courses">Courses</a></li>
+                                <li><a href="#plan">Plan</a></li>
+                                <li><a href="#program">Program</a></li>
+                                <li><a href="#contact">Contact us</a></li>
+                            </ul>
+                            <ul class="buttons">
+                                <li><a href="">Log in </a></li>
+                                <li><a href="">sign in</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                <!-- Slide navbar js -->
+                <script>
+                function openNav() {
+                    document.getElementById("sidebar").style.width = "50vh";
+                    document.getElementById("side-menu").style.display = "none";
+                }
+                
+                function closeNav() {
+                    document.getElementById("sidebar").style.width = "0";
+                    document.getElementById("side-menu").style.display = "block";
+                }
+                </script>
+            </div>
+            <div class="background">
+                <div class="content">
+                    <h1>Upgrade Your Mulit Skill</h1>
+                    <p>A new Different ways to Upgrade your Multi skill</p><br>
+                    <button type="submit">Get Started Today</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!------------------------------------------------- 
+                        courses section 
+        -------------------------------------------------->
+        <section class="courses" id="Courses">
+        <h1>selection of courses</h1>
+        <ul class="list-courses display-flex">
+            <li class="li-active"><a href="">Popular</a></li>
+            <li><a href="">Web Development</a></li>
+            <li><a href="">Python</a></li>
+            <li><a href="">Javascript</a></li>
+            <li><a href="">Data Science</a></li>
+            <li><a href="">Marketing</a></li>
+            <li><a href="">Photography</a></li>
+            <li><a href="">UI/UX</a></li>
+        </ul>
+        <ul class="courses-box display-flex">
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/anugular.jpg" class="img-fix">
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=chCcc8mhmLU&list=PLwGdqUZWnOp0NUuwR85Kq-wrDA2AVY1Ku"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Introduction of Anugular</h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.5</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>28 video</h3>
+                    </div>
+                </div>
+            </li>
+             
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/Figma.jpg" class="img-fix">
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=xJNGMbmt19A&list=PLwGdqUZWnOp2KUxgTLb1Wy2uhVmYM3bwT"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Figma Full Tutorial</h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.4</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>36 video</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/hosting.jpg" class="img-fix">
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=9KzVUOF-M8w&list=PLwGdqUZWnOp2jmYb2TQGYgBYp0xGwj9V1"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Hosting Website</h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.6</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>38 video</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/mondern javascript.jpg" class="img-fix">
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=JTcjSvFptEM&list=PLwGdqUZWnOp19VX-DM4oHtmWhDfWblFh-"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Modern Javascript</h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.2</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>24 video</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/movie.jpg" class="img-fix">
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=i701DGspTog&list=PLwGdqUZWnOp3Zk1tVHAnbw8vOTl4NHpg1"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Movie website </h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.8</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>25 video</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/node js.jpg" class="img-fix">
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=CgoD3HX1lWY&list=PLwGdqUZWnOp3Vqww2cL5KbDkShj4NMRzk"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Node js Express js</h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.8</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>86 video</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/react js (2).jpg" class="img-fix">
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=udYgxSPPpg8&list=PLwGdqUZWnOp2DilqWo2F3zOAN2_P-KOIO"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>React js website </h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.7</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>90 video</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/web development.jpg" class="img-fix">
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=DiVxOfUEbfk&list=PLwGdqUZWnOp0t1YdY2ut9pgA3tqXv64Z3"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Web Development</h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.5</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>15 video</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="box">
+                <div class="image">
+                    <img src="/asset/courses/ssl.jpg" class="img-fix" >
+                    <div class="overlay">
+                        <a href="https://www.youtube.com/watch?v=Nz9GrCHEOqk&list=PLwGdqUZWnOp0ND1_EVCS-hClmA168Ky1L"><button type="submit" class="play"><img src="./asset/play.png" alt="" srcset=""></button></a>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h1>Domain & Hosting</h1>
+                    <h2>Vinod Bahadur thapa</h2>
+                    <div class="star display-flex">
+                        <h5>4.9</h5>
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/star.png" alt="" srcset="">
+                        <img src="./asset/rating.png" alt="" srcset="">
+                        <h3>10 video</h3>
+                    </div>
+                   
+                </div>
+            </li>
+        </ul>
+        <div class="highlights">
+            <h1>why Use are Use Mulit Skill</h1>
+            <ul class="highlight display-flex">
+                <li>
+                    <i class="fa-solid fa-play fa-2x"></i>
+                    <p>Learn in-demand skills with over 12000+ video courses</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle-star"></i>
+                    <i class="fa-solid fa-star fa-2x"></i>
+                    <p>Choose courses taught by real-world experts</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-infinity fa-2x"></i>
+                    <p>Unlimited access</p>
+                </li>
+            </ul>
+        </div>
+        </section>
+       <script>
+       const slider = document.querySelector('.courses-box');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+        
+        slider.addEventListener('mousedown', (e) => 
+        {
+          isDown = true;
+          startX = e.pageX - slider.offsetLeft;
+          scrollLeft = slider.scrollLeft;
+        });
+        slider.addEventListener('mouseleave', () => 
+        {
+          isDown = false;
+          slider.classList.remove('active');
+        });
+        slider.addEventListener('mouseup', () => 
+        {
+          isDown = false;
+          slider.classList.remove('active');
+        });
+        slider.addEventListener('mousemove', (e) => 
+        {
+          if(!isDown) return;
+          e.preventDefault();
+          const x = e.pageX - slider.offsetLeft;
+          const walk = (x - startX) * 3; //scroll-fast
+          slider.scrollLeft = scrollLeft - walk;
+          console.log(walk);
+        });</script>
+
+
+
+
+
+
+        <!------------------------------------------------- 
+                        plan section 
+        -------------------------------------------------->
+        <section class="plan" id="plan">
+            <h1>Plans & Pricing</h1>
+            <div class="plans-boxs display-flex">
+                <div class="plan-box">
+                    <h2>Basic</h2>
+                    <h4><s>	&#x20B9 599</s>&#x20B9 399/y</h4>
+                    <button type="submit" class="buy">Get Started</button>
+                    <ul class="plan-ul">
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Unlimited access to 12,000+ classes</h3></li>
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Reporting & analytics</h3></li>
+                        <li> <img src="./asset/cross.png" alt="" srcset=""><h3>Offline Download</h3></li>
+                        <li> <img src="./asset/cross.png" alt="" srcset=""><h3>Cerificate</h3></li>
+                        <li> <img src="./asset/cross.png" alt="" srcset=""><h3>Number of devices can be logged in</h3></li>
+                    </ul>
+                </div>
+                <div class="plan-box offer">
+                    <h2>Pro</h2> 
+                    <h4><s>	&#x20B9 899</s>&#x20B9 599/y</h4>
+                    <button type="submit" class="buy">Get Started</button>
+                    <ul class="plan-ul">
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Unlimited access to 12,000+ classes</h3></li>
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Reporting & analytics</h3></li>
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Offline Download</h3></li>
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Cerificate</h3></li>
+                        <li> <img src="./asset/cross.png" alt="" srcset=""><h3>Number of devices can be logged in</h3></li>
+                    </ul> 
+                </div>
+                <div class="plan-box ">
+                    <h2>Max</h2>
+                    <h4><s>	&#x20B9 1199</s>&#x20B9 999/y</h4>
+                    <button type="submit" class="buy">Get Started</button>
+                    <ul class="plan-ul">
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Unlimited access to 12,000+ classes</h3></li>
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Reporting & analytics</h3></li>
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Offline Download</h3></li>
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Cerificate</h3></li>
+                        <li> <img src="./asset/tick.png" alt="" srcset=""><h3>Number of devices can be logged in</h3></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!------------------------------------------------- 
+                        program section 
+        -------------------------------------------------->
+        <section class="program" id="program">
+            <div class="first-program ">
+                <div class="left">
+                    <img src="/asset/woman.png" class="img-fix">
+                </div>
+                <div class="right">
+                    <h2>Become a Teacher</h2>
+                    <h3>
+                        Teacher from around the world teach millions of students on Mulit skill. We provide the tools and skills to teach what you love.
+                    </h3>
+                    <button type="submit" class="buy">Start Teaching Today</button>
+                </div>
+            </div>
+            <div class="second-program ">
+                <div class="left">
+                    <h2>Online Learning</h2>
+                    <h3>Get unlimited access to 16,000+ courses for your team. Learn and improve skills across business, tech, design, and more.</h3>
+                </div>
+                <div class="right">
+                    <img src="/asset/man.png" class="img-fix">
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        
+        <!------------------------------------------------- 
+                        footer section 
+        -------------------------------------------------->
+        <section class="footer" id="contact">
+        <div class="container-footer">
+            <div class="rows">
+                <div class="footer-col">
+                    <h1>Contact</h1>
+                    <ul class="contact">
+                        <li>
+                            <a href="#"><i class="fas fa-map-marked"></i></a>
+                                Bhavnagar
+                        </li>
+                        <li>
+                            <a href=""><i class="fas fa-envelope"></i></a>
+                                info@gmail.com
+                        </li>
+                        <li>
+                            <a href=""><i class="fas fa-phone-alt"></i></a>
+                                +1234567890
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>Courses</h1>
+                    <ul>
+                        <li>
+                            <a href="">Design</a>
+                        <li>
+                            <a href="">Development</a>
+                        </li>
+                        <li>
+                            <a href="">Marketing</a>   
+                        </li>                 
+                        <li>
+                            <a href="">Business</a>                    
+                        </li>
+                        <li>
+                            <a href="">Music</a>                    
+                        </li>
+                        <li>
+                            <a href="">Grapahics</a>                    
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>Profile</h1>
+                    <ul>
+                        <li>
+                            <a href="login.php">Login</a>
+                        </li>
+                        <li>
+                            <a href="">Account Details</a>
+                        </li>
+                        <li>
+                            <a href="register.php">Create New Account</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>Informations</h1>
+                    <ul>
+                        <li>
+                            <a href="">About us</a>
+                        </li>
+                        <li>
+                            <a href="contact.php">contact us</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>Social</h1>
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-facebook fa-2x"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube fa-2x"></i>
+                            </li>                                    
+                            <li>
+                                <i class="fa-brands fa-google fa-2x "></i>
+                            </li>                                    
+                            <li>
+                                <i class="fa-brands fa-instagram fa-2x"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-telegram fa-2x"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="copyright">
+            <p>© Copyright And Design BY Gohel Soham</p>
+        </div>
+        </section>
+    </section>
+</body>
+</html>
